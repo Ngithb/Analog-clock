@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    border: 3px solid rgb(8, 238, 46);
+    position: relative;
+    height: 40vw; /* This is made vw so that the container becomes responsive */
+    width: 40vw;
+    margin: auto;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #min, #sec{
+    position: absolute;
+   border-radius: 12px;
+   transform-origin: bottom;
+}
+
+#hour{
+    height: 21%;
+    width: 2%;
+    top: 30%;
+    left: 49%;
+    background-color: blue;
+    opacity: 0.8;
+}
+
+ #min{
+    height: 31%;
+    width: 2%;
+    top: 20%;
+    left: 49%;
+    background-color: red;
+    opacity: 0.9;
+}
+
+ #sec{
+    height: 42%;
+    width: 2%;
+    top: 9%;
+    left: 49%;
+    background-color: black;
+} 
